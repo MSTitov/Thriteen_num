@@ -65,5 +65,7 @@ int main(int argc, char* argv[])
     
     
     std::cout << counter << " beautiful number[s]\n";
+
+    delete[] p;
     return 0;
 }
